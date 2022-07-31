@@ -54,13 +54,8 @@ a:hover {
   display: none;
 }
 
-/* .linkBtn{
-  text-align: center;
-} */
 .linkBtn {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
   align-items: center;
   background: #040865;
   color: #fff;
@@ -116,7 +111,6 @@ a:hover {
   max-width: 100%;
   padding-left: 10%;
   height: 100%;
-  
 }
 
 .header__nav ul {
@@ -228,7 +222,6 @@ a:hover {
   position: relative;
   z-index: 3;
   top: -140px;
-  /* padding: 0 4%; */
 
 }
 
@@ -278,7 +271,6 @@ a:hover {
 
 .business__inner {
   max-width: 100%;
-  /* margin: 0 160px 0 0; */
 }
 
 .business__box {
@@ -304,7 +296,6 @@ a:hover {
 
 .business__box__txt {
   width: 50%;
-  /* padding: 30px 80px; */
   padding: 5%;
 }
 
@@ -519,6 +510,10 @@ a:hover {
   padding: 30px 40px;
   width: 300px;
 }
+.tel a{
+  /* safari用 */
+  color: #fff !important;
+}
 
 /* フッター */
 .footer {
@@ -728,7 +723,7 @@ a:hover {
   }
   .business__box__txt {
     width: 90%;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
   }
 
   /* 会社案内 */
@@ -746,12 +741,18 @@ a:hover {
   }
   .company__list{
     flex-direction: column;
-    padding: 50px 4%;
+    padding: 80px 4%;
   }
   .company__list li:nth-child(2){
     margin: 20px 0 0 0;
   }
   /* ニュース */
+  .news{
+    padding-bottom: 80px;
+  }
+  .news__inner{
+    margin-top: 0;
+  }
   .news__list li a{
     padding: 20px;
   }
@@ -762,6 +763,8 @@ a:hover {
   }
   .contact__box{
     flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .contact__box--left, .contact__box--right {
     padding: 0;
